@@ -1,10 +1,16 @@
 # FDxAVRC IDE-Less 1.12
 
-**Portable Windows build, report, upload, and verification script for 8-bit AVR C, C++, and GNU assembly projects.**
+FDxAVRC is a portable Windows batch build system for compiling, reporting, uploading, and verifying 8-bit AVR C, C++, and GNU assembly projects without an IDE.
 
-<img align="left" src="IDEless-Pig.png" width="600px" style="margin-right: 20px;" />
+<img src="IDEless-Pig.png" alt="FDxAVRC IDE-Less AVR development" width="500" align="left">
 
-`Z-FDxAVRC_IDE-Less_1.12.bat` provides a complete AVR-GCC and AVRDUDE workflow without requiring an IDE, project generator, Makefile, or CMake project. Put the script in a project folder, edit the settings near the top, and build by double-clicking it or running an action from Command Prompt.
+**Build AVR firmware directly from a project folder.** Put `Z-FDxAVRC_IDE-Less_1.12.bat` beside your source files, edit the clearly grouped settings, and double-click to build—or use command actions from Command Prompt.
+
+It supports application and bootloader builds, mixed C/C++ projects, GNU assembly, recursive source scanning, dependency-aware incremental compilation, firmware reports, AVRDUDE upload and verification, EEPROM images, and safe device-profile handling.
+
+The script keeps the real AVR-GCC and AVRDUDE workflow visible. It requires no IDE project, Makefile, CMake project, or project generator, making it useful for quick experiments, reusable firmware projects, and learning how the AVR toolchain fits together.
+
+<br clear="left">
 
 ## What it does
 
